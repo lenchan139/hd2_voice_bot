@@ -18,9 +18,7 @@ function main() {
       id: `hd2vo_${f}`,
       title: fname,
       caption: fname,
-      voice_url: `https://github.com/lenchan139/hd2_voice_bot/raw/refs/heads/master/${encodeThisURI(
-        fname
-      )}/${encodeThisURI(f)}`,
+      voice_url: `https://github.com/lenchan139/hd2_voice_bot/raw/refs/heads/master/Helldivers%202%20clips/${encodeThisURI(f)}`,
     });
   }
   console.log(json);
