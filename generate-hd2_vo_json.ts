@@ -1,6 +1,8 @@
 import * as fs from "fs";
 function encodeThisURI(s: string) {
-  return s.replace(/ /, "%20").replace(/#/, "%23");
+  return s.split(' ').join('%20')
+.split('#').join('%23')
+;
 }
 function main() {
   const urlPrefix =
